@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>blog - 代码街</title>
+
+    <!-- Bootstrap -->
+    <link href="static/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="static/home/css/main.css" rel="stylesheet">
+    <link href="static/home/css/subject.css" rel="stylesheet">
+    <link href="static/home/css/center.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+
+    </style>
+  </head>
+  <body>
+  	<!-- 导航 -->
+    <header class="header">
+    	<nav class="navbar navbar-default">
+		  
+			<div class="container-fluid">
+			  	<div class="pull-left">
+			  		<a href="/"><img class="logo" alt="daimajie.com" src="static/home/img/logo.png"></a>
+			  	</div>
+			  	<div class="container">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active">
+				        	<a href="#">首页 <span class="sr-only">(current)</span></a>
+				        </li>
+				        <li>
+				        	<a href="#">下载APP</a>
+				        </li>
+				      </ul>
+				      <form class="search navbar-form navbar-left">
+							<input type="search" placeholder="搜索...">
+					  </form>
+
+				      
+				      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="#">登陆</a></li>
+				        <!-- <li><a href="#">用户注册</a></li> -->
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">个人中心</a></li>
+				            <li><a href="#">写文章</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">退出登录</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+			  	</div>
+			</div><!-- /.container-fluid -->
+
+		</nav>
+    </header>
+
+    <!-- 主体 -->
+    <section class="content">
+    	<div class="container">
+	    	<div class="row">
+		    	<div class="cont-left col-md-8">
+
+		    		<!-- 专题信息 -->
+		    		<div class="subject-info row">
+		    			<div class="col-xs-3 col-sm-2 test">
+		    				<a href="#">
+		    				<img class="img-responsive img-radius-full" src="static/home/img/subject-img.jpg">
+		    				</a>
+		    			</div>
+		    			<div class="col-xs-9 col-sm-10 font-pretty">
+		    				<h3 class="subject-title">1314~ <small class="text-success">（VIP会员）</small></h3>
+		    				<p class="text-muted">注册时间：2017-12-12，最后登陆时间：2018-12-12</p>
+		    			</div>
+		    		</div>
+
+					<!-- 专题选项卡 -->
+					<div class="subject-tab">
+						<div>
+
+						  <!-- Nav tabs -->
+						  <ul class="font-pretty font-size-12"">
+						    <li class="active">
+						    	<a class="text-muted" href="#home">
+						    		<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> 收藏</a>
+						    </li>
+						    <li>
+						    	<a class="text-muted" href="#profile"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 评论</a>
+						    </li>
+						    <li>
+						    	<a class="text-muted" href="#messages"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> 动态</a>
+						    </li>
+						    
+						  </ul>
+						</div>
+					</div>
+
+					<!-- 文章列表 -->
+					<div class="articles">
+						<ul>
+							<li class="items">
+								<div class="author">
+									<a class="pull-left" href="#">
+										<img class="img-responsive" src="static/home/img/photo.jpg">
+									</a>
+									<div class="info pull-left">
+										<a href="#">1314~</a>
+										<span>8小时前</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="brief row">
+									<div class="brief-left col-sm-9 col-xs-12">
+										<a class="title" href="content.html">坚持五点半起床半年后，给我带来的蜕变</a>
+										<p>前不久，和几位上学时的小伙伴聊天，话题转到了我们现在的生活上。 许久未联系的我们，说着每个人的近况。 小陈在家乡考上了事业编，每天朝九晚五，上班忙碌，下班觉得很累，看着别人每...</p>
+									</div>
+									<div class="brief-right col-sm-3 hidden-xs"><img class="img-responsive" src="static/home/img/art-img.jpg"></div>
+								</div>
+								<div class="params">
+									<a class="subject-tag" href="#">大学生活</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										54321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+										321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										321
+									</a>
+								</div>
+							</li>
+							<li class="items">
+								<div class="author">
+									<a class="pull-left" href="#">
+										<img class="img-responsive" src="static/home/img/photo.jpg">
+									</a>
+									<div class="info pull-left">
+										<a href="#">1314~</a>
+										<span>8小时前</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="brief row">
+									<div class="brief-left col-xs-12">
+										<a class="title" href="content.html">坚持五点半起床半年后，给我带来的蜕变</a>
+										<p>前不久，和几位上学时的小伙伴聊天，话题转到了我们现在的生活上。 许久未联系的我们，说着每个人的近况。 小陈在家乡考上了事业编，每天朝九晚五，上班忙碌，下班觉得很累，看着别人每...</p>
+									</div>
+								</div>
+								<div class="params">
+									<a class="subject-tag" href="#">大学生活</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										54321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+										321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										321
+									</a>
+								</div>
+							</li>
+							<li class="items">
+								<div class="author">
+									<a class="pull-left" href="#">
+										<img class="img-responsive" src="static/home/img/photo.jpg">
+									</a>
+									<div class="info pull-left">
+										<a href="#">1314~</a>
+										<span>8小时前</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="brief row">
+									<div class="brief-left col-sm-9 col-xs-12">
+										<a class="title" href="content.html">坚持五点半起床半年后，给我带来的蜕变</a>
+										<p>前不久，和几位上学时的小伙伴聊天，话题转到了我们现在的生活上。 许久未联系的我们，说着每个人的近况。 小陈在家乡考上了事业编，每天朝九晚五，上班忙碌，下班觉得很累，看着别人每...</p>
+									</div>
+									<div class="brief-right col-sm-3 hidden-xs"><img class="img-responsive" src="static/home/img/art-img1.jpg"></div>
+								</div>
+								<div class="params">
+									<a class="subject-tag" href="#">大学生活</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										54321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+										321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										321
+									</a>
+								</div>
+							</li>
+							<li class="items">
+								<div class="author">
+									<a class="pull-left" href="#">
+										<img class="img-responsive" src="static/home/img/photo.jpg">
+									</a>
+									<div class="info pull-left">
+										<a href="#">1314~</a>
+										<span>8小时前</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="brief row">
+									<div class="brief-left col-sm-9 col-xs-12">
+										<a class="title" href="content.html">坚持五点半起床半年后，给我带来的蜕变</a>
+										<p>前不久，和几位上学时的小伙伴聊天，话题转到了我们现在的生活上。 许久未联系的我们，说着每个人的近况。 小陈在家乡考上了事业编，每天朝九晚五，上班忙碌，下班觉得很累，看着别人每...</p>
+									</div>
+									<div class="brief-right col-sm-3 hidden-xs"><img class="img-responsive" src="static/home/img/art-img2.jpg"></div>
+								</div>
+								<div class="params">
+									<a class="subject-tag" href="#">大学生活</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										54321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+										321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										321
+									</a>
+								</div>
+							</li>
+							<li class="items">
+								<div class="author">
+									<a class="pull-left" href="#">
+										<img class="img-responsive" src="static/home/img/photo.jpg">
+									</a>
+									<div class="info pull-left">
+										<a href="#">1314~</a>
+										<span>8小时前</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="brief row">
+									<div class="brief-left col-sm-9 col-xs-12">
+										<a class="title" href="content.html">坚持五点半起床半年后，给我带来的蜕变</a>
+										<p>前不久，和几位上学时的小伙伴聊天，话题转到了我们现在的生活上。 许久未联系的我们，说着每个人的近况。 小陈在家乡考上了事业编，每天朝九晚五，上班忙碌，下班觉得很累，看着别人每...</p>
+									</div>
+									<div class="brief-right col-sm-3 hidden-xs"><img class="img-responsive" src="static/home/img/art-img5.jpg"></div>
+								</div>
+								<div class="params">
+									<a class="subject-tag" href="#">大学生活</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										54321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+										321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										321
+									</a>
+								</div>
+							</li>
+							<li class="items">
+								<div class="author">
+									<a class="pull-left" href="#">
+										<img class="img-responsive" src="static/home/img/photo.jpg">
+									</a>
+									<div class="info pull-left">
+										<a href="#">1314~</a>
+										<span>8小时前</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="brief row">
+									<div class="brief-left col-sm-9 col-xs-12">
+										<a class="title" href="content.html">坚持五点半起床半年后，给我带来的蜕变</a>
+										<p>前不久，和几位上学时的小伙伴聊天，话题转到了我们现在的生活上。 许久未联系的我们，说着每个人的近况。 小陈在家乡考上了事业编，每天朝九晚五，上班忙碌，下班觉得很累，看着别人每...</p>
+									</div>
+									<div class="brief-right col-sm-3 hidden-xs"><img class="img-responsive" src="static/home/img/art-img6.jpg"></div>
+								</div>
+								<div class="params">
+									<a class="subject-tag" href="#">大学生活</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										54321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+										321
+									</a>
+									<a href="#">
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										321
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+		    	</div>
+
+
+		    	<div class="cont-right col-md-4 hidden-xs hidden-sm">
+		    		<div class="notice font-pretty">
+		    			<h4 class="text-muted">个人设置</h4>
+		    			<p>修改密码</p>
+		    			<p>修改邮箱</p>
+		    		</div>
+
+		    		<hr>
+		    		<div class="shared font-pretty">
+		    			<h4 class="text-muted">VIP订阅</h4>
+		    			<div>
+		    				asdasd
+		    			</div>
+		    		</div>
+
+		    		<hr>
+		    		<div class="shared font-pretty">
+		    			<h4 class="text-muted">我的购买</h4>
+		    			<div>
+		    				asdasd
+		    			</div>
+		    		</div>
+		    		
+		    	</div>
+	    	</div>
+    	</div>
+    </section>
+
+    <!-- 页脚 -->
+    <!-- <footer id="footer"></footer> -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h6>Copyright &copy;代码街</h6>
+                </div>
+                
+                <div class="col-sm-4">
+                    <h6>关于我们</h6>
+                    <p>
+                        中国上海/2014年8月14日 — 服务于中国及全球华人社群的领先在线媒体公司新浪公司(NASDAQ GS: SINA)今日公布了截至2014年6月30日的第二季度未经审计的财务报告。
+                    </p>
+                </div>
+                
+                <div class="col-sm-2">
+                    <h6>导航</h6>
+                    <ul class="unstyled">
+                        <li><a href="">主页</a></li>
+                        <li><a href="">服务</a></li>
+                        <li><a href="">链接</a></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-2">
+                    <h6>Follow us</h6>
+                    <ul class="unstyled">
+                        <li><a href="">微博</a></li>
+                        <li><a href="">微信</a></li>
+                        <li><a href="">来往</a></li>
+                    </ul>                    
+                </div>
+                
+                <div class="col-sm-2">
+                    <h6>Power by Yii2.0 <br/> admin@daimajie.com</h6>
+                </div>
+            </div>
+        </div>
+    </footer><!--页脚结束-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="static/libs/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
